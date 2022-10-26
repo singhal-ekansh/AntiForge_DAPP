@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/anti_forge_dapp.iml" filepath="$PROJECT_DIR$/anti_forge_dapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/anti_forge_dapp_android.iml" filepath="$PROJECT_DIR$/android/anti_forge_dapp_android.iml" />
+    </modules>
+  </component>
+</project>
