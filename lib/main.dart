@@ -1,4 +1,7 @@
+import 'package:anti_forge_dapp/add_medicine_page.dart';
 import 'package:anti_forge_dapp/home_page.dart';
+import 'package:anti_forge_dapp/medicine_details.dart';
+import 'package:anti_forge_dapp/qr_scanner.dart';
 import 'package:anti_forge_dapp/supply_services.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -19,7 +22,12 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const HomePage(),
+        initialRoute: '/',
+        routes: {
+          '/': (context) => const HomePage(),
+          '/add_medicine': (context) => const AddMedicine(),
+          '/scan_medicine': (context) => const QrScanner(),
+        },
       ),
     );
   }

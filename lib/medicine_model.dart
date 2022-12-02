@@ -1,6 +1,10 @@
-class Medicine {
-  late int id;
-  late String name;
+import 'logs_model.dart';
 
-  Medicine({required this.id, required this.name});
+class Medicine {
+  int id;
+  String name;
+  String expireDate;
+  List<Logs> logs;
+
+  Medicine(this.id, this.name, this.expireDate, this.logs);
 }
