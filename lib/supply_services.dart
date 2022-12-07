@@ -25,18 +25,13 @@ class SupplyServices extends ChangeNotifier {
   final String privateKeyDistributor =
       "96b673d12d4b5414311c345e95b575104218b1aa56c89055c3efcce34ca8b667";
 
-  final Map<String, String> stakeholders = {
-    "e04ae1b2a3b18347ad777a372d8cd7778fff9625dc9dbd36b044fc10d57bd71c":
-        "Manufacture",
-    "77f7c11020353c22b291bffe5c9c8531a124c2a6c261eb4765d152251bbf73d3":
-        "Transporter",
-    "bf5ef59d0a2c91ba9dac951c9169cef4785ae9f5041f2b99cf0e6ea354ef6fba":
-        "Wholesaler",
-    "55261da52458d3409f070a02ec332c387c0ce982060e82304d8c15d5441eacfb":
-        "Transporter",
-    "96b673d12d4b5414311c345e95b575104218b1aa56c89055c3efcce34ca8b667":
-        "Distributor"
-  };
+  // final Map<String, String> stakeholders = {
+  //   "0x1C51175a52b3c299eC02307A24505D14bff44810": "Manufacture",
+  //   "0xc05Aefd2434612028cC741f37685D0a660c49F9a": "Transporter",
+  //   "0xa1e0b0D28d77F77b415E0844C33186B83870F9ec": "Wholesaler",
+  //   "0x6A9e8eE7D7aA466B4CBFbf4e3AEE4e6B80F51779": "Transporter",
+  //   "0x8BA4451D579697314cCfa612132A4660D9182147": "Distributor"
+  // };
 
   late Web3Client _web3client;
   late String _abiCode;
